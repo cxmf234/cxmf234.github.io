@@ -95,7 +95,7 @@
 			font-size: 0.7rem;
 			letter-spacing: 3px;
 			text-align: center;
-			top: 125px;
+			top: 115px;
 		}
 		.line {
 			display: inline-block;
@@ -111,7 +111,7 @@
 			margin: 0 auto;
 			height: 50px;
 			text-align: center;
-			top: 145px;
+			top: 135px;
 		}
 		.qq, .weixin, .weibo{
 		   position: relative;
