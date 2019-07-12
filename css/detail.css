@@ -1,0 +1,210 @@
+.detail-title {
+    position: relative;
+    padding-top: 60px;
+    height: 140px;
+    line-height: 140px;
+    text-shadow: 0.5px 0.9px 1px rgba(73, 71, 214, 0.6);
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.position-name {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.position-name>div {
+    position: relative;
+    width: 220px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.position-name>div:hover {
+    opacity: 0.6;
+}
+
+.position-name div:nth-child(1) {
+    background-image: url('../images/detail/job1.png');
+}
+
+.position-name div:nth-child(2) {
+    background-image: url('../images/detail/job2.png');
+}
+
+.position-name div:nth-child(3) {
+    background-image: url('../images/detail/job3.png');
+}
+
+.position-name div:nth-child(4) {
+    background-image: url('../images/detail/job4.png');
+}
+
+.position-name div:nth-child(5) {
+    background-image: url('../images/detail/job5.png');
+}
+
+.position-bg {
+    position: relative;
+    width: 100%;
+    background-image: url('../images/detail/bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.position-description {
+    position: relative;
+    width: 1200px;
+    /* height: 868px; */
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.Safety-technical-engineer {
+    background-color: #f5f6f7;
+}
+
+.job-sort {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 11px;
+    font-size: 16px;
+    text-align: left;
+    color: #4e86fb;
+}
+
+.job-sort-name {
+    position: relative;
+    margin-top: 80px;
+    font-size: 32px;
+    text-shadow: 0.5px 0.9px 1px #ffffff;
+    font-weight: bold;
+    color: #3b7bfb;
+}
+
+.job-operation {
+    position: relative;
+    width: 1200px;
+    height: 49px;
+    background-image: url('../images/detail/job-operation.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 0 0 2px 8px;
+}
+
+.job-operation-long {
+    background-image: url('../images/detail/job-operation-long.png');
+}
+
+.job-operation-middle {
+    background-image: url('../images/detail/job-operation-middle.png');
+}
+
+.job-name {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #3b7bfb;
+}
+
+.job-share {
+    position: absolute;
+    display: flex;
+    left: 200px;
+    align-items: center;
+    bottom: 0;
+    font-size: 14px;
+}
+
+.long-name {
+    left: 302px;
+}
+
+.job-share>div {
+    margin-right: 10px;
+}
+
+.share-type {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.share-type:hover {
+    opacity: 0.6;
+}
+
+.share-type img {
+    margin-right: 5px;
+}
+
+.position-description-detail {
+    position: relative;
+    width: 1200px;
+}
+
+.you-can {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 48px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff754d;
+}
+
+.description-txt {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: left;
+    color: #3b445c;
+}
+
+.join-condition {
+    position: relative;
+    margin-top: 47px;
+    margin-bottom: 31px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #ff754d;
+}
+
+.submit-resume-btn {
+    position: relative;
+    width: 266px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, #fe8d6b, #ff6969);
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 64px auto auto auto;
+    cursor: pointer;
+}
+
+.submit-resume-btn:hover {
+    opacity: 0.6;
+}

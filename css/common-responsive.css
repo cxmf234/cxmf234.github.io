@@ -1,0 +1,38 @@
+/**
+* 最大宽度1920px，大于1920px水平居中
+*/
+/* 当页面小于1920px */
+
+html {
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 当页面宽度小于1920px时 */
+@media screen and (max-width: 1920px) {
+    .content {
+        position: relative;
+        width: 100%;
+        min-width: 1200px;
+    }
+}
+
+/* 当页面宽度大于1920px时 */
+@media screen and (min-width: 1920px) {
+    .content {
+        position: relative;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        max-width: 1920px;
+    }
+}
