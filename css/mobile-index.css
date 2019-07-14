@@ -42,3 +42,119 @@
     letter-spacing: 0.1rem;
     text-align: center;
 }
+
+.sendYourResume {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    height: 1.28rem;
+    line-height: 1.28rem;
+    width: 4.81rem;
+    background-image: linear-gradient(150deg, #fe8d6b, #ff6969);
+    font-size: 0.48rem;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0.64rem;
+}
+
+.detail-content {
+    position: relative;
+    color: #ffffff;
+    padding-top: 0.88rem;
+}
+
+.detailLogo {
+    position: relative;
+    margin: 0 auto;
+    width: 3.7rem;
+    height: 1.54rem;
+    background-image: url('../images/mobile-index/department@3x.png');
+    background-size: cover;
+}
+
+.group-logo {
+    background-image: url('../images/mobile-index/grouplogo.png');
+}
+
+.introduceVedio {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0.44rem;
+    width: 9.37rem;
+    height: 5.25rem;
+    background-color: #0e162b;
+    border-radius: 0.16rem 0.16rem 0 0;
+}
+
+.introduceTxt {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0.73rem;
+    width: 9.37rem;
+    height: 8.4rem;
+    background-image: url('../images/mobile-index/departmentIntroduce.png');
+    background-size: cover;
+    border-radius: 0 0 0.16rem 0.16rem;
+    box-sizing: border-box;
+}
+
+.introduceTxt-title {
+    position: relative;
+    color: #ffffff;
+    font-size: 0.64rem;
+    text-align: center;
+}
+
+.sign {
+    position: relative;
+    width: 0.81rem;
+    height: 0.04rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 0.52rem;
+    margin-top: 0.36rem;
+    border-radius: 1.5px;
+    background-image: linear-gradient(to bottom, #ff9d7f, #ff6d6d);
+}
+
+.introduceTxt-value {
+    position: relative;
+    width: 8.6rem;
+    margin: 0 auto;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 0.37rem;
+}
+
+.introduceTxt-secondLine {
+    margin-top: 0.72rem;
+}
+
+.group-detail {
+    position: relative;
+    width: 9.16rem;
+    height: 12.26rem;
+    background-image: url('../images/mobile-index/groupbg.png');
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 0.13rem 0.13rem 0 0;
+    margin-bottom: 2rem;
+    /* margin-left: 0.21rem; */
+}
+
+.group-detail-introduce {
+    margin-left: 0.32rem;
+}
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    color: #0e162b;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 9.16rem!important;
+    background-color: #ff6969;
+}
