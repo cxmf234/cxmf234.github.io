@@ -1,0 +1,44 @@
+.top-content {
+    position: relative;
+    width: 100%;
+    height: 15.7rem;
+    background-image: url('../images/mobile-index/bannerbj@3x.png');
+    background-size: cover;
+    padding-top: 0.79rem;
+}
+
+.companeyName-firstLine {
+    position: relative;
+    width: 5rem;
+    margin: 0 auto;
+    font-size: 0.37rem;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    text-align: justify;
+    text-shadow: -2px -3px 6px #4a49d7;
+    color: #ffffff;
+}
+
+.companeyName-firstLine:after {
+    content: " ";
+    display: inline-block;
+    width: 100%;
+}
+
+.companeyName-secondLine {
+    position: relative;
+    margin-top: 0.37rem;
+    text-align: center;
+    font-size: 1rem;
+    font-family: zcoolqingkehuangyouti;
+    color: #ffffff;
+}
+
+.year {
+    position: relative;
+    margin-top: 0.43rem;
+    color: #ffffff;
+    font-size: 0.48rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
